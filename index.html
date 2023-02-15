@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="Asset 1@3x 1.png">
+    <div class="navigation">
+        <a id="bank">БАНК</a>
+        <a>БИЗНЕС</a>
+        <a>ИНВЕСТИЦИИ</a>
+        <a>СТРАХОВАНИЕ</a>  
+        <a>МОБАЙЛ</a>
+        <a>ПУТЕШЕСТВИЯ</a>
+        <a>РАЗВЛЕЧЕНИЯ</a>
+    </div>
+        <button id="login">ВОЙТИ</button>
+    </header>
+    <div class ="container">
+        <h1>Конвертер валют онлайн</h1>
+    <div id="main">
+    <div id='left'>
+        <p id="title1">У меня есть</p>
+        <ul id="ul_1">
+            <li><button class="button1">RUB</button></li>
+            <li class="selected"><button>USD</button></li>
+            <li><button class="button">EUR</button></li>
+            <li><button class="button">GBP</button></li>
+        </ul>
+    <div id="box1">
+        <input maxlength="7" id="amountLeft" value = "1">
+        <p id="rate_left"></p>
+    </div>
+    </div>
+    <div id="right">
+        <p id="title2">Хочу приобрести</p>
+        <ul id="ul_2">
+            <li class="selected"><button>RUB</button></li>
+            <li><button>USD</button></li>
+            <li><button>EUR</button></li>
+            <li><button>GBP</button></li>
+        </ul>
+    <div id="box2">
+        <input id="amountRight"></input>
+        <p id="rate_right"></p>
+    </div><!--end box2-->
+    </div><!--end right-->
+    </div><!--end main-->
+    </div><!--end container-->
+    <script src="index.js"></script>
+</body>
+</html>
